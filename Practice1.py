@@ -1,16 +1,15 @@
 
 # 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
-"""
+
 number = 5
 
 if number == 10:
   print(0)
 else:
   print(-1)
-"""
 
 # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
-"""
+
 number = 11
 
 if number < 10:
@@ -19,7 +18,7 @@ elif number > 10:
     print(1)
 elif number == 10:
     print(0)
-  """
+
 
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
 number1 = 23
@@ -31,6 +30,12 @@ else:
   print(0)
 
 # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
+number = 121212
+
+if number > 9000:
+  print(1)
+else: 
+  print(-1)
 
 # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
 
