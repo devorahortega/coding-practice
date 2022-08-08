@@ -50,6 +50,13 @@ else:
   print(-1)
 
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+number1 = 13
+number2 = 5
+
+if number1 > 10 or number2 > 10:
+  print(100)
+else:
+  print(-100)
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
