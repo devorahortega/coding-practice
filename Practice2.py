@@ -5,6 +5,10 @@ lastname = "Green"
 print(firstname + " " + lastname)
 
 # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
+firstname = "Ashley"
+lastname = "Green"
+
+print("% s" % firstname, "% s" % lastname)
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
