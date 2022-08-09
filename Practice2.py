@@ -11,6 +11,8 @@ lastname = "Green"
 print("% s" % firstname, "% s" % lastname)
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+word = input("Enter word:")
+print("Word is: " + word)
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
