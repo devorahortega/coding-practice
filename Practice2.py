@@ -15,6 +15,11 @@ word = input("Enter word:")
 print("Word is: " + word)
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+color1 = "blue"
+color2 = "red"
+color3 = "green"
+
+print("The three colors in this list are % s" % color1, "% s" % color2, "% s" % color3)
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
