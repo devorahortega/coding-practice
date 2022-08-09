@@ -31,6 +31,10 @@ print("The three colors in this list are % s" % color1, "% s" % color2, "% s" % 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+title = "None"
+author = "Bob Green"
+
+print("The author of the books " + title + " is " + author + ".")  
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
