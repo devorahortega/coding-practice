@@ -37,6 +37,10 @@ author = "Bob Green"
 print("The author of the books " + title + " is " + author + ".")  
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+title = "None"
+author = "Bob Green"
+
+print("The author of the books % s" % title, " is " "% s" % author)
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
