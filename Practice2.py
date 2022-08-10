@@ -43,5 +43,11 @@ author = "Bob Green"
 print("The author of the books % s" % title, " is " "% s" % author)
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+password = input("Enter password:")
+
+if password == "Joshua":
+    print("Shall we play a game?")
+else: 
+    print("Access denied.")
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
