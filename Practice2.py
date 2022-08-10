@@ -51,3 +51,8 @@ else:
     print("Access denied.")
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+city1 = "Chicago"
+city2 = "Dallas"
+city3 = "Ottawa"
+
+print("The three cities are " + city1 + ", " + city2 + ", " + city3) 
