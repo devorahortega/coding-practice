@@ -5,7 +5,13 @@ array.append("peach")
 array.append("plum")
 
 print(array)
+
 # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+array = ["q", "o", "l", "o"]
+
+array[1] = "y"
+
+print(array)
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
