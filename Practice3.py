@@ -20,6 +20,13 @@ for number in array:
     print(number)
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+array = [1]
+
+array.append(2)
+array.append(3)
+array.append(4)
+
+print(array)
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
