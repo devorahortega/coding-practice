@@ -29,6 +29,11 @@ array.append(4)
 print(array)
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+array = ["apple", "carrot", "orange"]
+
+array[2] = array[2].capitalize
+
+print(array)
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
