@@ -14,6 +14,10 @@ array[1] = "y"
 print(array)
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+array = [1, 2, 4, 6, 7]
+
+for number in array:
+    print(number)
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
