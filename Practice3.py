@@ -38,6 +38,8 @@ print(array)
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 array = ["Amy", "Joe", "Bob"]
 
+for word in array:
+    print(word)
 
 # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 array = ["Apple", "Carrot"]
@@ -54,6 +56,9 @@ array[0] = array[0] * 10
 print(array)
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 array = [1, 3]
+
+for number in array:
+    print(number)
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 array = ["Canada", "USA", "China"]
