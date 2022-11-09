@@ -1,7 +1,7 @@
 public class practice9 {int day = 4;
     switch (
     day
-    ) {
+    )     public static void main(String[] args) {{
       
     case
      1:
@@ -20,4 +20,5 @@ public class practice9 {int day = 4;
         System.out.println("Weekend");
     }
     
+}
 }

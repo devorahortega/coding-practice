@@ -1,5 +1,5 @@
 public class practice10 {
-
+    public static void main(String[] args) {
     int i = 1;
 do
  {
@@ -9,4 +9,5 @@ do
 while
  (i < 6);
     
+}
 }
