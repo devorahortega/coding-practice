@@ -24,3 +24,17 @@ p reverse(["h", "e", "l", "l", "o"])
 
 # Input: "hello" 
 # Output: "olleh"
+
+def reverse(string)
+    index = string.length - 1
+    result = ""
+
+    while index >= 0
+        result += string[index]
+        index -= 1
+    end
+
+    return result
+end 
+
+p reverse("hello")
