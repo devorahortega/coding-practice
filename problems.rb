@@ -30,7 +30,19 @@ p subrtaction(4, 2)
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
+def stringgy(num)
+    return num.to_s
+end
+
+p stringgy(5)
+
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+def timesfive(string)
+    return string
+end
+
+p timesfive("hello")
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
