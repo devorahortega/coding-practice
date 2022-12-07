@@ -40,6 +40,12 @@ p first_letter("hello")
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
+def combine(string, string2, string3)
+    return string + string2 + string3
+end
+
+p combine("pi", "na", "pple")
+
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
 def stringgy(num)
