@@ -20,17 +20,23 @@
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
-puts "Please enter a number:"
+# puts "Please enter a number:"
 
-num1 = gets.chomp
+# num1 = gets.chomp
 
-puts "Please enter another number:"
+# puts "Please enter another number:"
 
-num2 = gets.chomp
+# num2 = gets.chomp
 
-puts num1.to_i + num2.to_i
+# puts num1.to_i + num2.to_i
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+puts "Please enter a word:"
+
+word = gets.chomp.reverse
+
+puts word
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
