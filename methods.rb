@@ -40,13 +40,23 @@
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
-puts "Please enter a number:"
+# puts "Please enter a number:"
 
-num = gets.chomp
+# num = gets.chomp
 
-puts num.to_i * 10
+# puts num.to_i * 10
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+puts "Please enter a word:"
+
+word1 = gets.chomp
+
+puts "Please enter a word:"
+
+word2 = gets.chomp
+
+puts "#{word1.upcase} #{word2.upcase}"
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
