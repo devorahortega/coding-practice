@@ -60,13 +60,21 @@
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
-puts "Please enter a word:"
+# puts "Please enter a word:"
 
-word = gets.chomp
+# word = gets.chomp
 
-puts word.length
+# puts word.length
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
+
+puts "Please enter a number:"
+
+num = gets.chomp
+
+if num.to_i < 0
+    puts "That's a negative number."
+end
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
