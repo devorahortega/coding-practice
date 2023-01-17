@@ -1,3 +1,4 @@
 - Adds rubocop and rufo gem and extension on Vscode
 - Adds eslint and prettier
--git/github setup check
+- git/github setup check
+- Goes through other resources
